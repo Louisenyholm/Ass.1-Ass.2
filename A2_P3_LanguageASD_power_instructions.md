@@ -168,7 +168,7 @@ powvis
     ## Based on 100 simulations, (0 warnings, 0 errors)
     ## alpha = 0.05, nrow = 387
     ## 
-    ## Time elapsed: 0 h 0 m 22 s
+    ## Time elapsed: 0 h 0 m 21 s
     ## 
     ## nb: result might be an observed power calculation
 
@@ -272,13 +272,13 @@ print(pc_Visit)
     ##      60: 100.0% (96.38, 100.0) - 347 rows
     ##      67: 100.0% (96.38, 100.0) - 387 rows
     ## 
-    ## Time elapsed: 0 h 2 m 14 s
+    ## Time elapsed: 0 h 2 m 12 s
 
 ``` r
 plot(pc_Visit)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-1-1.png)
 
 ``` r
 # In order to replicate the findings of a main effect of Visit, one would need around 9 participants (resulting in power of .80)
@@ -310,13 +310,13 @@ print(pc_Diagnosis)
     ##     196: 80.00% (70.82, 87.33) - 1131 rows
     ##     220: 81.00% (71.93, 88.16) - 1270 rows
     ## 
-    ## Time elapsed: 0 h 0 m 59 s
+    ## Time elapsed: 0 h 0 m 58 s
 
 ``` r
 plot(pc_Diagnosis)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-1-2.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-1-2.png)
 
 ``` r
 # In order to replicate the findings of a main effect of Diagnosis, one would need around 196 participants (resulting in power of .80)
@@ -348,13 +348,13 @@ print(pc_inter)
     ##      60: 100.0% (96.38, 100.0) - 347 rows
     ##      67: 100.0% (96.38, 100.0) - 387 rows
     ## 
-    ## Time elapsed: 0 h 2 m 8 s
+    ## Time elapsed: 0 h 2 m 19 s
 
 ``` r
 plot(pc_inter)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-1-3.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-1-3.png)
 
 ``` r
 # In order to replicate the findings of a three-way interaction effect, one would need around 16 participants (resulting in power of .80)
@@ -415,13 +415,13 @@ print(pc_Visit2)
     ##      60: 100.0% (96.38, 100.0) - 347 rows
     ##      67: 100.0% (96.38, 100.0) - 387 rows
     ## 
-    ## Time elapsed: 0 h 2 m 11 s
+    ## Time elapsed: 0 h 2 m 23 s
 
 ``` r
 plot(pc_Visit2)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 ``` r
 # In order to find a main effect of "Visit" with a more conservative approach (effect size of 0.16), one would need around 14 participants (resulting in power of .80)
@@ -455,13 +455,13 @@ print(pc_Diagnosis2)
     ##     445: 97.00% (91.48, 99.38) - 2572 rows
     ##     500: 99.00% (94.55, 99.97) - 2889 rows
     ## 
-    ## Time elapsed: 0 h 1 m 31 s
+    ## Time elapsed: 0 h 1 m 30 s
 
 ``` r
 plot(pc_Diagnosis2)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-2-2.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-2-2.png)
 
 ``` r
 # In order to find a main effect of "Diagnosis" with a very conservative approach (effect size of 0.2), one would need around 250 participants (resulting in power of .80)
@@ -499,7 +499,7 @@ print(pc_Inter2)
 plot(pc_Inter2)
 ```
 
-![](A2_P3_LanguageASD_power_instructions_new_files/figure-markdown_github/unnamed-chunk-2-3.png)
+![](A2_P3_LanguageASD_power_instructions_files/figure-markdown_github/unnamed-chunk-2-3.png)
 
 ``` r
 # In order to find an interaction effect with a more conservative approach (effect size of 0.2), one would need around 19 participants (resulting in power of .80)
@@ -619,7 +619,7 @@ powinter_30
     ## Based on 100 simulations, (0 warnings, 0 errors)
     ## alpha = 0.05, nrow = 180
     ## 
-    ## Time elapsed: 0 h 0 m 15 s
+    ## Time elapsed: 0 h 0 m 14 s
     ## 
     ## nb: result might be an observed power calculation
 
