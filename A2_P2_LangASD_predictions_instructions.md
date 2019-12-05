@@ -270,3 +270,30 @@ Bernie %>%
 
 # That is, following the prediction, Bernie's MLU is worse than expected/predicted.
 ```
+
+### OPTIONAL: Exercise 4) Model Selection via Information Criteria
+
+Another way to reduce the bad surprises when testing a model on new data
+is to pay close attention to the relative information criteria between
+the models you are comparing. Let’s learn how to do that!
+
+Re-create a selection of possible models explaining ChildMLU (the ones
+you tested for exercise 2, but now trained on the full dataset and not
+cross-validated).
+
+Then try to find the best possible predictive model of ChildMLU, that
+is, the one that produces the lowest information criterion.
+
+-   Bonus question for the optional exercise: are information criteria
+    correlated with cross-validated RMSE? That is, if you take AIC for
+    Model 1, Model 2 and Model 3, do they co-vary with their
+    cross-validated RMSE?
+
+### OPTIONAL: Exercise 5): Using Lasso for model selection
+
+Welcome to the last secret exercise. If you have already solved the
+previous exercises, and still there’s not enough for you, you can expand
+your expertise by learning about penalizations. Check out this tutorial:
+<a href="http://machinelearningmastery.com/penalized-regression-in-r/" class="uri">http://machinelearningmastery.com/penalized-regression-in-r/</a>
+and make sure to google what penalization is, with a focus on L1 and
+L2-norms. Then try them on your data!
